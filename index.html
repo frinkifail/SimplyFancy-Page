@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SimplyFancy</title>
+    <link rel="stylesheet" href="styles/index.css" />
+</head>
+<body>
+    <div id="bg-img"></div>
+    <nav class="appbar">
+        <img src="./styles/icon-mc.png" alt="Icon Minecraft" width=42 height=40 style="margin-top: 10px; margin-left: 10px;" />
+        <img src="./styles/home_FILL1_wght400_GRAD0_opsz48.png" alt="Home Selected" class="icon" style="right: 50px;" width=24 height=24 />
+        <img src="./styles/info_FILL0_wght400_GRAD0_opsz48.png" alt="Info Unselected" class="icon" style="right: 20px;" width=24 height=24 />
+    </nav>
+    <br>
+    <div id="main-content">
+        <center>
+            <div id="logo-content">
+                <img src="./styles/icon-mc.png" alt="Icon Minecraft" width=180 height=181 />
+                <h1 style="margin-top: -8px;">SimplyFancy</h1>
+                <p style="margin-top: -8px;">A Minecraft Server which keeps the vanilla feel, while still being more fancy than vanilla.</p>
+            </div>
+            <div id="server-address">
+                <div id="id-container" onclick="navigator.clipboard.writeText('simplyfancy.shockbyte.pro'); alert('Copied to clipboard!')">
+                    <span style="font-family: 'Roboto Mono', 'Consolas', 'Menlo', monospace;">simplyfancy.shockbyte.pro</span>
+                </div>
+                <span style="font-size: small; font-family: 'Roboto Mono', 'Consolas', 'Menlo', monospace;">click to copy to clipboard!</span>
+            </div>
+            <div id="about-us-arrow" style="position: absolute; bottom: 10px; right: 50%; transform: translateX(50%);">
+                <img src="./styles/arrow_downward_FILL1_wght400_GRAD0_opsz48.png" alt="Arrow Downward" width=86 height=86 />
+                <h3>About Us (WIP)</h3>
+            </div>
+        </center>
+    </div>
+</body>
+</html>
